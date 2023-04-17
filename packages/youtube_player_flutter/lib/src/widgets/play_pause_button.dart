@@ -90,8 +90,8 @@ class _PlayPauseButtonState extends State<PlayPauseButton>
               decoration: BoxDecoration(
                 color: Colors.white,
                 shape: BoxShape.circle,
-                padding: const EdgeInsets.all(32),
               ),
+              padding: const EdgeInsets.all(32),
               child: AnimatedIcon(
                 icon: AnimatedIcons.play_pause,
                 progress: _animController.view,
